@@ -23,6 +23,9 @@ public class FahrenheitToCelsius {
             // Check for high temperature and issue a warning if necessary
             if(Farenheit > HIGH_TEMP_F_WARNING){
                 System.out.print("Remember to hydrate\n");}
+                if(Farenheit > 60 && Farenheit < 70) {
+                    System.out.print("it is a little cold out today");
+                }
             // Check for low temperature and issue a warning if necessary
             if(Farenheit < LOW_TEMP_F_WARNING ){
                 System.out.print("Remember to pack Long underwear\n");}
